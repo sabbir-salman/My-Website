@@ -71,3 +71,7 @@ line-height: 20px; /* 83.333% */
   color: #ffffff;
 }
 
+.downloadLink {
+  text-decoration: none !important;
+  color: inherit !important;
+}
