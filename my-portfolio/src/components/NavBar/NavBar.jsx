@@ -7,9 +7,6 @@ export const NavBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [activeLink, setActiveLink] = useState('');
 
-  const handleLinkClick = (link) => {
-    setActiveLink(link); // Close dropdown when a link is clicked
-  };
 
   const moreItems = [
     {
@@ -37,9 +34,9 @@ export const NavBar = () => {
       <ul className={style.navLinks}>
         <li>
           <a
-            href="#home"
-            onClick={() => setActiveLink('home')}
-            className={activeLink === 'home' ? style.active : ''}
+            href="#about me"
+            onClick={() => setActiveLink('about me')}
+            className={activeLink === 'about me' ? style.active : ''}
           >
             About Me
           </a>
