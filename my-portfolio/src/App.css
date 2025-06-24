@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+body {
+  font-family: "Plus Jakarta Sans", "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* index.css or global.css এ এটা রাখো */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}

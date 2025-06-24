@@ -1,0 +1,33 @@
+.heroSection {
+  height: 1024px;
+  align-self: stretch;
+  background: radial-gradient(
+    143.62% 134.34% at 64.17% -11.87%,
+    #4338ca 0%,
+    #111113 70.06%
+  );
+}
+
+
+.heroSectionName h1{
+  color: #ffffff;
+  text-align: center;
+  font-family: "Advent Pro";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 108px */
+  text-transform: uppercase;
+  align-self: stretch;
+}
+
+
+.heroSectionDescription p{
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 48px */
+}
