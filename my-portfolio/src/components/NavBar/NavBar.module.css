@@ -21,3 +21,35 @@
   align-self: stretch;
   list-style: none;
 }
+
+
+/* more option for navBar */
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navLinks li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.moreDropdown {
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
+.navLinks li a.active {
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
