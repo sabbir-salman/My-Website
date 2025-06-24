@@ -6,10 +6,17 @@
     #4338ca 0%,
     #111113 70.06%
   );
+
+  height: 100vh;
+  padding-top: 80px; /* navbar-এর উচ্চতার সমান */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-
-.heroSectionName h1{
+.heroSectionName h1 {
   color: #ffffff;
   text-align: center;
   font-family: "Advent Pro";
@@ -19,10 +26,11 @@
   line-height: 150%; /* 108px */
   text-transform: uppercase;
   align-self: stretch;
+
+  
 }
 
-
-.heroSectionDescription p{
+.heroSectionDescription p {
   color: #fff;
   text-align: center;
   font-family: "Plus Jakarta Sans";
@@ -30,4 +38,16 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 48px */
+}
+
+.heroSectionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+  width: 240px;
+  height: 64px;
+  background: #4338ca;
+  border-radius: 8px;
 }

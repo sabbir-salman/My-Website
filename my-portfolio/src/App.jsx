@@ -11,10 +11,11 @@ function App() {
   return (
     <>
       <div>
-       <HeroSection />
-       <NavBar />
+        <NavBar />
+        <HeroSection />
+
       </div>
-        
+
     </>
   )
 }

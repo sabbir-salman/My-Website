@@ -10,8 +10,11 @@ export const HeroSection = () => {
       <div className={`${styles.heroSectionDescription} container`}>
         <p> UX/UI designer. I design for user — not for myself. </p>
       </div>
-        
-    
+      <div className={`${styles.heroSectionButton} container`}>
+        <button className={styles.buttonPrimary}>Download CV</button>
+      </div>
+
+
     </div>
   );
 };

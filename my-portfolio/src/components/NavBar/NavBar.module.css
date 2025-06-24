@@ -1,0 +1,23 @@
+.navBar {
+  display: flex;
+  width: 1120px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: absolute; /* এটি উপরে ভেসে থাকবে */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  padding: 20px;
+  color: #fff;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  align-self: stretch;
+  list-style: none;
+}
