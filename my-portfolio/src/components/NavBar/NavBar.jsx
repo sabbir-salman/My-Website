@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import style from './NavBar.module.css';
 import { Dropdown } from 'antd';
-import { DownOutlined, UpOutlined } from '@ant-design/icons';
+import { Button } from "antd";
+import { DownOutlined, UpOutlined, PhoneFilled, PhoneTwoTone } from '@ant-design/icons';
 
 export const NavBar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -26,7 +27,10 @@ export const NavBar = () => {
   return (
     <nav className={`${style.navBar} container`}>
       <div className="logo">
-        <img src="/images/Logo.svg" alt="logo" />
+
+        <a href="home">
+          <img src="/images/Logo.svg" alt="logo" />
+        </a>
       </div>
 
 
@@ -86,6 +90,12 @@ export const NavBar = () => {
               More {dropdownOpen ? <UpOutlined /> : <DownOutlined />}
             </a>
           </Dropdown>
+        </li>
+
+        <li>
+          <Button className={style.contactButton} size='small'>
+            <PhoneFilled />Contact Me
+          </Button>
         </li>
       </ul>
     </nav>

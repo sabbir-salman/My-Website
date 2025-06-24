@@ -6,6 +6,7 @@ import resume from "/images/resume.pdf";
 
 export const HeroSection = () => {
 
+
   return (
     <div className={styles.heroSection}>
       <div className={`${styles.heroSectionName} container`}>

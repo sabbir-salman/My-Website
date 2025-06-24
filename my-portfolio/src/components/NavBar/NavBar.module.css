@@ -22,7 +22,6 @@
   list-style: none;
 }
 
-
 /* more option for navBar */
 
 .navLinks {
@@ -46,10 +45,23 @@
   font-weight: 500;
 }
 
-
 .navLinks li a.active {
   font-weight: 600;
   color: #fff;
   border-bottom: 1px solid #fff;
 }
 
+.contactButton {
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  width: 160px;
+  height: 40px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: var(--radius-rounded-md, 4px);
+  color: #000000;
+  margin-left: 0px;
+}
