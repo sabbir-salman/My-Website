@@ -92,11 +92,11 @@ export const NavBar = () => {
           </Dropdown>
         </li>
 
-        <li>
+        {/* <li>
           <Button className={style.contactButton} size='small'>
             <PhoneFilled />Contact Me
           </Button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
