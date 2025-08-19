@@ -1,0 +1,99 @@
+.projectsSection {
+  background: #111113;
+  color: #fff;
+  padding: 60px 20px;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+
+.title span {
+  color: #6a5af9;
+}
+
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: #6a5af9;
+  transform: translateX(-50%);
+}
+
+.timelineItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  position: relative;
+}
+
+.timelineItem.left {
+  flex-direction: row;
+}
+
+.timelineItem.right {
+  flex-direction: row-reverse;
+}
+
+.content {
+  width: 40%;
+}
+
+.content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.imageWrapper {
+  width: 45%;
+  text-align: center;
+}
+
+.imageWrapper img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Button */
+.buttonWrapper {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.moreBtn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #6a5af9;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.moreBtn:hover {
+  background: #6a5af9;
+  color: #fff;
+}
