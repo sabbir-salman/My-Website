@@ -1,0 +1,64 @@
+.eventsSection {
+  background: #111113;
+  color: #fff;
+  padding: 80px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+}
+
+.title span {
+  color: #6a5af9;
+}
+
+.eventsList {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.eventCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1d;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 20px 25px;
+  transition: all 0.3s ease;
+}
+
+.eventCard:hover {
+  border: 1px solid #5338ca;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.eventInfo h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.eventInfo p {
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+.projectLink {
+  font-size: 0.95rem;
+  color: #6a5af9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.projectLink:hover {
+  color: #5338ca;
+}
