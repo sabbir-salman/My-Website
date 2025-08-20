@@ -10,6 +10,7 @@ import MyProjects from './components/MyProjects/MyProjects'
 import Skills from './components/Skills/Skills'
 import Events from './components/Events/Events'
 import WrittingSpace from './components/WritingSpace/WritingSpace'
+import Moments from './components/Moments/Moments'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
         <Skills/>
         <Events />
         <WrittingSpace />
+        <Moments />
 
       </div>
 
